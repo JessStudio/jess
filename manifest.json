@@ -2,7 +2,7 @@
   "name": "Jess Test App",
   "short_name": "JTA",
   "description": "A progressive web app testing",
-  "start_url": "/?utm_source=pwa",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",

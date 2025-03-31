@@ -1,6 +1,6 @@
 {
   "name": "Jess Test App",
-  "short_name": "JTA",
+  "short_name": "Jess Test App",
   "description": "A progressive web app testing",
   "start_url": "/",
   "scope": "/",
@@ -39,6 +39,11 @@
     "finance"
   ],
   "display_override": [
-    ["standalone"]
-  ]
+    [
+      "standalone"
+    ],
+    "window-controls-overlay"
+  ],
+  "dir": "auto",
+  "prefer_related_applications": true
 }

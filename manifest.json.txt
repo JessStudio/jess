@@ -1,0 +1,44 @@
+{
+  "name": "Jess Test App",
+  "short_name": "JTA",
+  "description": "A progressive web app testing",
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "id": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Test_image.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "lang": "en",
+  "categories": [
+    "education",
+    "finance"
+  ],
+  "display_override": [
+    ["standalone"]
+  ]
+}
